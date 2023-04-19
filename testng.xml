@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sanity">
+   <listeners>
+	   <listener class-name="com.selenium.testng.tests.ReportListeners"></listener>
+   </listeners>
+  
+<test  name="Smoke Test">
+	<classes>
+	      <class name="com.selenium.testng.tests.LoginTest"/>
+     </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
+
